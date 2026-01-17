@@ -14,6 +14,7 @@ setup(
         "scipy",
         "numba",
         "pynndescent",
+        "faiss-cpu",
     ],
     include_package_data=True,
     zip_safe=False,
