@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="ivfpqOur",
+    name="ivfpqour",
     version="0.1.0",
     description="Custom ANN method based on HKMeans + Monotonic Neighbors + NNDescent",
     author="your_name",
     author_email="your_email@example.com",
-    url="https://github.com/soreak/ivfpqOur",
+    url="https://github.com/soreak/ivfpqour",
     packages=find_packages(),
     python_requires=">=3.7",
     install_requires=[
