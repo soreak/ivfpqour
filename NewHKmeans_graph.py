@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 from collections import deque
 from pynndescent import NNDescent
 
-from CPD_Kmeans_up import CPD_KMeans
+from .CPD_Kmeans_up import CPD_KMeans
 
 
 # =========================
