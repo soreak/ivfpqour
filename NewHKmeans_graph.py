@@ -631,12 +631,12 @@ class HierarchicalInvIndex:
             top_distances = np.concatenate([top_distances, np.full(pad, np.inf, dtype=np.float32)])
 
         t4 = time.perf_counter()
-        print(f"total={(t4 - t0) * 1000:.3f} ms | "
-              f"s0={(t1 - t0) * 1000:.3f} ms "
-              f"s0b={(t1b - t1) * 1000:.3f} ms "
-              f"s1={(t2 - t1b) * 1000:.3f} ms "
-              f"s2={(t3 - t2) * 1000:.3f} ms "
-              f"s3={(t4 - t3) * 1000:.3f} ms")
+        # print(f"total={(t4 - t0) * 1000:.3f} ms | "
+        #       f"s0={(t1 - t0) * 1000:.3f} ms "
+        #       f"s0b={(t1b - t1) * 1000:.3f} ms "
+        #       f"s1={(t2 - t1b) * 1000:.3f} ms "
+        #       f"s2={(t3 - t2) * 1000:.3f} ms "
+        #       f"s3={(t4 - t3) * 1000:.3f} ms")
 
         return top_indices, top_distances
 
